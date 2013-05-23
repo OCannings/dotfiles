@@ -1,0 +1,10 @@
+[mergetool]
+	keepBackup = false
+[color]
+	ui = auto
+[core]
+	editor = vim
+	excludesfile = /home/gazler/.gitignore
+[format]
+  pretty = %C(yellow)%h%Creset %s %C(red)(%cr, %aN)%Creset
+
