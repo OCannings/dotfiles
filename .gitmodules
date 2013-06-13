@@ -1,0 +1,48 @@
+[submodule ".vim/bundle/CoVim"]
+  path = .vim/bundle/CoVim
+  url = https://github.com/FredKSchott/CoVim.git
+[submodule ".vim/bundle/nerdtree"]
+  path = .vim/bundle/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/snipmate.vim"]
+  path = .vim/bundle/snipmate.vim
+  url = https://github.com/msanders/snipmate.vim.git
+[submodule ".vim/bundle/syntastic"]
+  path = .vim/bundle/syntastic
+  url = https://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/vim-coffee-script"]
+  path = .vim/bundle/vim-coffee-script
+  url = https://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+  path = .vim/bundle/vim-colors-solarized
+  url = https://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-fugitive"]
+  path = .vim/bundle/vim-fugitive
+  url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/vim-gitgutter"]
+  path = .vim/bundle/vim-gitgutter
+  url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/bundle/vim-golang"]
+  path = .vim/bundle/vim-golang
+  url = https://github.com/jnwhiteh/vim-golang.git
+[submodule ".vim/bundle/vim-handlebars"]
+  path = .vim/bundle/vim-handlebars
+  url = https://github.com/nono/vim-handlebars.git
+[submodule ".vim/bundle/vim-markdown"]
+  path = .vim/bundle/vim-markdown
+  url = https://github.com/tpope/vim-markdown.git
+[submodule ".vim/bundle/vim-multiple-cursors"]
+  path = .vim/bundle/vim-multiple-cursors
+  url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule ".vim/bundle/vim-rails"]
+  path = .vim/bundle/vim-rails
+  url = https://github.com/tpope/vim-rails.git
+[submodule ".vim/bundle/vim-ruby"]
+  path = .vim/bundle/vim-ruby
+  url = https://github.com/vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/vim-surround"]
+  path = .vim/bundle/vim-surround
+  url = https://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/vim-unimpaired"]
+  path = .vim/bundle/vim-unimpaired
+  url = https://github.com/tpope/vim-unimpaired.git
