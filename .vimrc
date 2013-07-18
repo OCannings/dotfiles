@@ -38,6 +38,8 @@ let mapleader = ","
 set background=dark
 colorscheme solarized
 
+filetype indent plugin on
+
 nnoremap j gj
 nnoremap k gk
 
