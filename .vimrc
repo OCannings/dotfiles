@@ -8,19 +8,21 @@ set nobackup
 set number
 set ruler
 
-set autoindent
-
 set hlsearch
 set incsearch
 set showmatch
 set ignorecase
 set smartcase
 
+set autoindent
+
 set cursorline
 
 setlocal spell spelllang=en_us
 
 set novisualbell
+
+set t_Co=256
 
 set backspace=indent,eol,start
 
@@ -68,5 +70,7 @@ endif
 
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
-set listchars=tab:>¬,trail:¬
+set listchars=tab:>-,trail:¬
 set list
+
+autocmd FileType go setlocal nolist
