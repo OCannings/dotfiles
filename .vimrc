@@ -23,6 +23,7 @@ setlocal spell spelllang=en_us
 set novisualbell
 
 set t_Co=256
+set ttimeoutlen=50
 
 set backspace=indent,eol,start
 
@@ -74,3 +75,6 @@ set listchars=tab:>-,trail:¬
 set list
 
 autocmd FileType go setlocal nolist
+
+"gitgutter prevent ugly grey bar
+highlight clear SignColumn
