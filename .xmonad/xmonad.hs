@@ -111,6 +111,12 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
  
     -- close focused window
     , ((modm .|. shiftMask, xK_c     ), kill)
+
+    -- Change keyboard layout to QWERTY
+    , ((modm, xK_Escape              ), spawn "setxkbmap gb")
+
+    -- Change keyboard layout to DVORAK
+    , ((modm .|. shiftMask, xK_Escape), spawn "setxkbmap gb -variant dvorak")
  
      -- Rotate through the available layout algorithms
     , ((modm,               xK_space ), sendMessage NextLayout)
@@ -133,13 +139,6 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- Move focus to the master window
     , ((modm,               xK_m     ), windows W.focusMaster  )
 
-    --Brightness       
-    , ((modm,               xK_F8    ), spawn "python /home/gazler/python/pybright.py dec"  )
-    , ((modm,               xK_F9    ), spawn "python /home/gazler/python/pybright.py inc"  )
-
-    -- , ((modm,               xK_F6    ), lowerVolume 4 >>= alert)
-    -- , ((modm,               xK_F7    ), raiseVolume 4 >>= alert)
- 
     -- Swap the focused window and the master window
     , ((modm,               xK_Return), windows W.swapMaster)
 
