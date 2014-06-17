@@ -2,6 +2,8 @@ call pathogen#infect()
 set nocompatible
 set scrolloff=3
 
+syntax on
+
 set showcmd
 set nobackup
 
@@ -78,3 +80,6 @@ autocmd FileType go setlocal nolist
 
 "gitgutter prevent ugly grey bar
 highlight clear SignColumn
+
+"Treat dashes as part of word
+set iskeyword+=-
