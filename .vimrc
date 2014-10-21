@@ -20,7 +20,7 @@ set autoindent
 
 set cursorline
 
-setlocal spell spelllang=en_us
+setlocal spell spelllang=en_gb
 
 set novisualbell
 
